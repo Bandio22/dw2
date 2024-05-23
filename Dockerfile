@@ -48,3 +48,6 @@ CMD service apache2 start && bash
 # na het uitvoeren van “service apache2 start”.
 # Het commando “bash” blijft immers “hangen”,
 # tot je binnen bash “exit” tikt.
+
+RUN date > buildtime.txt
+# Datum en tijd bij aanmaak image toevoegen en dit in het .txt bestand steken
